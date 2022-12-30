@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Number series game</string>
+
+
+    <string-array name="select_array">
+
+        <item>المملكة العربية السعودية</item>
+        <item>الإمارات العربية المتحدة</item>
+        <item>البحرين</item>
+        <item>الكويت</item>
+        <item>قطر</item>
+        <item>سلطنة عمان</item>
+        <item>لبنان</item>
+        <item>سوريا</item>
+        <item>الأردن</item>
+        <item>فلسطين</item>
+        <item>العراق</item>
+        <item>اليمن</item>
+
+
+    </string-array>
+</resources>

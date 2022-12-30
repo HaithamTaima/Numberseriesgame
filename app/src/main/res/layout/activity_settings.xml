@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Settings">
+
+
+<ImageView
+    android:id="@+id/back"
+
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_marginStart="350dp"
+    android:src="@drawable/ic_ss24"
+    android:layout_marginTop="10dp"
+    />
+
+
+
+
+    <Button
+        android:id="@+id/btn_show_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:text="Show All Game" />
+
+    <Button
+        android:id="@+id/btn_show_last"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Show Last Game" />
+
+    <Button
+        android:id="@+id/change_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+
+        android:text="Change Password" />
+
+    <Button
+        android:id="@+id/clear_game_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:text="Clear Game History" />
+</LinearLayout>
